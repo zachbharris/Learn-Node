@@ -3,4 +3,4 @@ extends layout
 
 //- allows us to replace the content within the block content in the layout file
 block content
-  p Hello
+  h2 Sales ends in #{h.moment().endOf('day').fromNow()}
